@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+.btn {
+    @apply rounded py-3  text-white inline-block text-center font-thin;
+}
+
+@media (max-width:980px) {
+    .triangle {
+        border-top: transparent !important;
+    }
+}
+@media (min-width:980px) {
+    .medium\:w-3\/16 {
+        width: 18.75% !important;
+
+    }
+}
+
+@media (min-width: 980px) {
+    .medium\:hidden {
+        display: none !important;
+    }
+}
+@tailwind utilities;
