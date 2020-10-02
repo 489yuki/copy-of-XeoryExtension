@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+</head>
+<body class="font-body">
+    <header class="flex justify-center flex-wrap">
+        <div class="w-full bg-header flex items-center justify-between small:px-12 px-3 small:h-auto h-20">
+            <a class="text-white XeoryExtension text-2xl leading-6 font-thin hover:border-white border-header border-b-2" href="#">XeoryExtension</a>
+            <div class="h-full medium:flex items-center hidden">
+                <a class="font-thin text-white text-base py-8 px-2 hover:bg-headerHover duration-500" href="#">記事ページサンプル</a>
+                <a class="font-thin text-white text-base ml-3 py-8 px-2 inline-block hover:bg-headerHover duration-500" href="#">Extentionをダウンロード</a>
+            </div>
+            <a href="#" class="small:inline-block medium:hidden hidden"><i class="fas fa-bars text-white py-8 text-3xl bg-gray-800 px-12"></i></a>
+        </div>
+        <a href="#" class="small:hidden w-full px-4 bg-gray-800 text-center text-white py-1"><i class="fas fa-bars"></i></a>
+    </header>
+    <div class="bg-main text-white text-center">
+        <h1 class="text-white text-5xl font-thin pt-40 inline-block w-full">Xeory Extension</h1>
+        <p class="w-2/5 inline-block pt-10 pb-48">Xeory Extensionはワンコラムのサイト型テーマです。ユーザーに対して重要なコンテンツを効率的に届けられるようにデザインされています。５種類のカラーバリエーションを用意しています。</p>
+    </div>
+    <div class="border-b border-gray-300">
+        <h2 class="py-6 my-12 text-2xl font-normal text-center border-b border-t border-gray-300"><span class="fas fa-flag pr-2"></span>人気のある記事</h2>
+        <div class="flex small:justify-between mx-10 pb-12 flex-wrap justify-center">
+            <a href="#" class="medium:w-3/16 small:w-3/10 w-full relative">
+                <article>
+                    <img src="img-first.png" alt="image-first" class="w-full">
+                    <p class="inline-block px-2 py-3 bg-yellow-600 bg-opacity-50 text-white absolute top-0 left-0">N0.1</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="medium:w-3/16 small:w-3/10 w-full  relative">
+                <article>
+                    <img src="img-second.png" alt="image-second" class="w-full">
+                    <p class="inline-block px-2 py-3 bg-gray-400 bg-opacity-50 text-white text-opacity-50 absolute top-0 left-0">N0.2</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="relative medium:w-3/16 small:w-3/10 w-full">
+                <article>
+                    <img src="img-third.png" alt="image-third" class="w-full">
+                    <p class="inline-block px-2 py-3 bg-yellow-900 bg-opacity-50 text-white text-opacity-50 absolute top-0 left-0">N0.3</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="w-3/16 relative hidden medium:inline-block">
+                <article>
+                    <img src="img-fourth.jpg" alt="image-fourth" class="w-full">
+                    <p class="inline-block px-2 py-3 bg-gray-900 bg-opacity-50 text-white text-opacity-50 absolute top-0 left-0">N0.4</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="w-3/16 relative hidden medium:inline-block">
+                <article>
+                    <img src="img-fifth.png" alt="image-fifth" class="w-full">
+                    <p class="inline-block px-2 py-3 bg-gray-900 bg-opacity-50 text-white text-opacity-50 absolute top-0 left-0">N0.5</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            
+        </div>
+    </div>
+    <div>
+        <h2 class="py-6 my-12 text-2xl font-normal text-center border-t border-b border-gray-300"><i class="mr-2 far fa-clock"></i>最近の投稿</h2>
+        <div class="flex small:justify-between justify-center flex-wrap mx-10 pb-12 border-b-2 border-gray-300">
+            <a href="#" class="medium:w-3/16 small:w-3/10 w-full relative">
+                <article>
+                    <img src="img-first.png" alt="image-first" class="w-full">
+                    <p class="inline-block text-center leading-5 px-2 py-1 bg-gray-800 bg-opacity-50 text-white text-opacity-75 absolute top-0 left-0 text-sm"><span class="text-xs">2014</span><br>10/24</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="medium:w-3/16 small:w-3/10 w-full relative">
+                <article>
+                    <img src="img-second.png" alt="image-second" class="w-full">
+                    <p class="inline-block text-center leading-5 px-2 py-1 bg-gray-800 bg-opacity-50 text-white text-opacity-75 absolute top-0 left-0 text-sm"><span class="text-xs">2014</span><br>10/24</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="medium:w-3/16 small:w-3/10 w-full relative">
+                <article>
+                    <img src="img-third.png" alt="image-third" class="w-full">
+                    <p class="inline-block text-center leading-5 px-2 py-1 bg-gray-800 bg-opacity-50 text-white text-opacity-75 absolute top-0 left-0 text-sm"><span class="text-xs">2014</span><br>10/24</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="w-3/16 relative hidden medium:inline-block">
+                <article>
+                    <img src="img-fourth.jpg" alt="image-fourth" class="w-full">
+                    <p class="inline-block text-center leading-5 px-2 py-1 bg-gray-800 bg-opacity-50 text-white text-opacity-75 absolute top-0 left-0 text-sm"><span class="text-xs">2014</span><br>10/24</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            <a href="#" class="w-3/16 relative hidden medium:inline-block">
+                <article>
+                    <img src="img-fifth.png" alt="image-fifth" class="w-full">
+                    <p class="inline-block text-center leading-5 px-2 py-1 bg-gray-800 bg-opacity-50 text-white text-opacity-75 absolute top-0 left-0 text-sm"><span class="text-xs">2014</span><br>10/24</p>
+                    <p class="w-7/12 bg-main py-2 mt-3 mb-4 text-white font-thin text-sm block text-center">カテゴリー#1</p>
+                    <p class="border-b-2 hover:border-main border-opacity-100 border-white mb-5 font-light inline-block leading-3 tracking-widest">テスト投稿</p>
+                </article>
+            </a>
+            
+        </div>
+    </div>
+    <div>
+        <div class="text-center bg-gray-700">
+            <i class="fas fa-check text-white text-2xl mt-6 mb-3"></i>
+            <h2 class="text-white text-3xl font-thin">XeoryExtensionの特徴</h2>
+            <p class="text-white pb-4 text-xs">feature</p>
+        </div>
+        <div class="relative flex justify-center">
+            <p class="triangle w-1/12 absolute inline-block"></p>
+        </div>
+        <div class="flex medium:justify-between flex-wrap justify-center mx-10 medium:px-0 border-b border-gray-200 pb-24 medium:pb-0">
+            <div class="medium:w-6/12  medium:ml-10 w-full inline-block medium:text-left text-center pb-0 medium:pb-16">
+                <p class="pt-10 pb-2 bg-main text-white text-center w-8 mx-auto medium:mx-0">1</p>
+                <h2 class="text-4xl mt-10 text-main font-light tracking-widest">モバイルレスポンシブ</h2>
+                <p class="text-main mt-4 font-thin text-sm medium:mb-0 mb-10">Mobile Responsive</p>
+                <p class="mt-6 tracking-wider font-light hidden medium:inline-block">Xeory Extensionはレスポンシブデザインを採用しています。スマートフォンやタブレットなど各種デバイスで表示が最適化されます。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 w-4/12 hidden medium:inline-block"　href="#">詳しく見る</a>
+            </div>
+            <img class="medium:w-5/12 object-cover h-auto w-full" src="img-fourth.jpg" alt="image-fourth">
+            <div class="flex justify-center flex-wrap">
+                <p class="mt-6 tracking-wider font-light medium:hidden inline-block">Xeory Extensionはレスポンシブデザインを採用しています。スマートフォンやタブレットなど各種デバイスで表示が最適化されます。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 small:w-4/12 w-full medium:hidden inline-block"　href="#">詳しく見る</a>
+            </div>
+        </div>
+        <div class="flex medium:justify-between flex-wrap justify-center px-10 medium:px-0 border-b border-gray-200 pb-24 medium:pb-0">
+            <div class="medium:w-6/12  medium:ml-10 w-full inline-block medium:text-left text-center pb-0 medium:pb-16 medium:order-2 order-1">
+                <p class="pt-10 pb-2 bg-main text-white text-center w-8 mx-auto medium:mx-0">2</p>
+                <h2 class="text-4xl mt-10 text-main font-light tracking-widest">HTML5デザイン</h2>
+                <p class="text-main mt-4 font-thin text-sm medium:mb-0 mb-10">HTML5 Design</p>
+                <p class="mt-6 tracking-wider font-light hidden medium:inline-block">Xeory Extensionは最新のHTML5言語でデザイン及びコーディングがなされています。時代遅れのソースからは卒業しましょう。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 w-4/12 hidden medium:inline-block"　href="#">詳しく見る</a>
+            </div>
+            <img class="medium:w-5/12 object-cover h-auto w-full order-2 medium:order-1" src="img-sixth.jpg" alt="image-sixth">
+            <div class="order-2 flex justify-center flex-wrap">
+                <p class="mt-6 tracking-wider font-light medium:hidden inline-block">Xeory Extensionは最新のHTML5言語でデザイン及びコーディングがなされています。時代遅れのソースからは卒業しましょう。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 small:w-4/12 w-full medium:hidden inline-block "　href="#">詳しく見る</a>
+            </div>
+        </div>
+        <div class="flex medium:justify-between flex-wrap justify-center px-10 medium:px-0 border-b border-gray-200 pb-24 medium:pb-0">
+            <div class="medium:w-6/12  medium:ml-10 w-full inline-block medium:text-left text-center pb-0 medium:pb-16">
+                <p class="pt-10 pb-2 bg-main text-white text-center w-8 mx-auto medium:mx-0">3</p>
+                <h2 class="text-4xl mt-10 text-main font-light tracking-widest">SEO最適化</h2>
+                <p class="text-main mt-4 font-thin text-sm medium:mb-0 mb-10">Search Engine Optimized</p>
+                <p class="mt-6 tracking-wider font-light hidden medium:inline-block">Xeory ExtensionはGoogleのSEOガイドラインに可能な限り沿った構造になっています。必要なのは良質なコンテンツだけです。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 w-4/12 hidden medium:inline-block"　href="#">詳しく見る</a>
+            </div>
+            <img class="medium:w-5/12 object-cover h-auto w-full" src="img-seventh.jpg" alt="image-sevevnth">
+            <div class="flex justify-center flex-wrap">
+                <p class="mt-6 tracking-wider font-light medium:hidden inline-block">Xeory ExtensionはGoogleのSEOガイドラインに可能な限り沿った構造になっています。必要なのは良質なコンテンツだけです。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 small:w-4/12 w-full medium:hidden inline-block"　href="#">詳しく見る</a>
+            </div>
+        </div>
+        <div class="flex medium:justify-between flex-wrap justify-center px-10 medium:px-0 border-b border-gray-200 pb-24 medium:pb-0">
+            <div class="medium:w-6/12  medium:ml-10 w-full inline-block medium:text-left text-center pb-0 medium:pb-16 medium:order-2 order-1">
+                <p class="pt-10 pb-2 bg-main text-white text-center w-8 mx-auto medium:mx-0">4</p>
+                <h2 class="text-4xl mt-10 text-main font-light tracking-widest">高いカスタマイズ性</h2>
+                <p class="text-main mt-4 font-thin text-sm medium:mb-0 mb-10">Customizable</p>
+                <p class="mt-6 tracking-wider font-light hidden medium:inline-block">Xeory Extensionはカスタマイズフリーです。CSS, HTML, PHP の知識があれば自由にカスタマイズすることができます。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 w-4/12 hidden medium:inline-block"　href="#">詳しく見る</a>
+            </div>
+            <img class="medium:w-5/12 object-cover h-auto w-full order-2 medium:order-1" src="img-second.png" alt="image-second">
+            <div class="order-2 flex justify-center flex-wrap">
+                <p class="mt-6 tracking-wider font-light medium:hidden inline-block">Xeory Extensionはカスタマイズフリーです。CSS, HTML, PHP の知識があれば自由にカスタマイズすることができます。</p>
+                <a href="#" class="bg-orange-600 hover:bg-orange-500 duration-500 btn mt-12 small:w-4/12 w-full medium:hidden inline-block "　href="#">詳しく見る</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="text-center bg-gray-700">
+            <i class="fas fa-heart  text-white text-2xl mt-6 mb-3"></i>
+            <h2 class="text-white text-3xl font-thin">サービス紹介</h2>
+            <p class="text-white pb-4 text-xs">sevice</p>
+        </div>
+        <div class="relative flex justify-center">
+            <p class="triangle w-1/12 absolute inline-block"></p>
+        </div>
+        <div class="flex medium:justify-between justify-center flex-wrap">
+            <div class="text-center medium:w-1/2 w-full medium:border-r-2 border-gray-200">
+                <h1 class="text-main text-5xl font-thin mt-32 tracking-wider">Xeoryカスタマイズ</h1>
+                <p class="text-xs text-main my-8">Xeory Customize</p>
+                <a href="#" class="btn bg-main text-white w-2/4 hover:bg-headerHover mb-24 duration-500">カスタマイズ事例を見る</a>
+            </div>
+            <div class="text-center medium:w-1/2 w-full">
+                <h1 class="text-main text-5xl font-thin mt-32 tracking-wider">コンサルティング</h1>
+                <p class="text-xs text-main my-8">Consulting</p>
+                <a href="#" class="btn bg-main text-white w-2/4 hover:bg-headerHover mb-24 duration-500">コンサルティング事例を見る</a>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <div class="text-center bg-gray-700">
+            <i class="fas fa-phone-alt text-white text-2xl mt-6 mb-3"></i>
+            <h2 class="text-white text-3xl font-thin">会社説明</h2>
+            <p class="text-white pb-4 text-xs">company</p>
+        </div>
+        <div class="relative flex justify-center">
+            <p class="triangle w-1/12 absolute inline-block"></p>
+        </div> 
+        <div class="flex flex-wrap medium:justify-between justify-center pb-24 medium:pb-0">
+            <div class="small:block hidden mt-24 medium:ml-12 ml-0 medium:w-6/12 w-full order-2 medium:order-1 px-12 medium:px-0">
+                <ul>
+                    <li>
+                        <p class="py-4 text-lg font-light inline-block w-full border-t border-gray-300"><span class="pr-16 pl-8 py-4 border-main border-t-2">会社名</span><span class="py-4 pl-8">株式会社ルーシー</span></p>
+                    </li>
+                    <li>
+                        <p class="py-4 text-lg font-light inline-block w-full border-t border-gray-300 pl-8">電話番号<span class="pl-20">03-1111-2222</span></p>
+                    </li>
+                    <li>
+                        <p class="py-4 text-lg font-light inline-block w-full border-t border-gray-300 pl-8"><span class="pr-3">住所</span><span class="pl-24 ">東京都港区西新橋２-７-４ CJビル11階</span></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-left order-2 w-full px-4 mx-2 mt-20 border-t-2 border-main block small:hidden">
+                <ul>
+                    <li>
+                        <p class="font-medium mt-6">会社名</p>
+                        <p class="font-light leading-9 border-b border-gray-300">株式会社ルーシー</p>
+                    </li>
+                    <li>
+                        <p class="font-medium mt-6">電話番号</p>
+                        <p class="font-light leading-9 border-b border-gray-300">03-1111-2222</p>
+                    </li>
+                    <li>
+                        <p class="font-medium mt-6">住所</p>
+                        <p class="font-light leading-9 border-b border-gray-300">東京都港区西新橋２-７-４ CJビル11階</p>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="medium:w-5/12 w-full order-1 medium:order-2">
+                <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6482.8301774497995!2d139.753866!3d35.66678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ee3d7c4e8731e7a!2z5qCq5byP5Lya56S-44Or44O844K344O8!5e0!3m2!1sja!2sjp!4v1601529475965!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <div class="text-center bg-gray-700">
+            <i class="fas fa-phone-alt text-white text-2xl mt-6 mb-3"></i>
+            <h2 class="text-white text-3xl font-thin">お問合せ</h2>
+            <p class="text-white pb-4 text-xs">inquiry</p>
+        </div>
+        <div class="relative flex justify-center">
+            <p class="triangle w-1/12 absolute inline-block"></p>
+        </div> 
+        <div class="bg-main pb-20 border-b-8 border-gray-800">
+            <form class="pt-20 text-white flex justify-center flex-wrap text-center">
+                <p class="inline-block w-full">お名前 (必須)</p>
+                <input type="text" name="name" class="w-9/12 medium:w-1/2 medium:mx-0 mb-6 h-8 inline-block">
+                <p class="inline-block w-full">メールアドレス (必須)</p>
+                <input type="text" name="mail-adress" class="w-9/12 medium:w-1/2 mb-6 h-8 inline-block">
+                <p class="inline-block w-full">題名</p>
+                <input type="text" name="title" class="w-9/12 medium:w-1/2 mb-6 h-8 inline-block">
+                <p class="inline-block w-full">メッセージ本文</p>
+                <input type="text" name="main" class="w-9/12 medium:w-1/2 mb-6 h-40 inline-block">
+                <p></p>
+                <input type="submit" class="small:w-2/12 w-2/3 small:mx-64 mx-32 bg-gray-900 btn inline-block ">
+            </form>
+        </div>
+    </div>
+    <footer class="bg-footer">
+        <div>
+            <div class="border-b border-gray-800 mx-4 pl-8">
+                <h2 class="text-white text-2xl font-light pt-20 pb-12">XeoryExtension</h2>
+            </div>
+            <div class="flex px-12 mt-8 pb-20">
+                <div class="flex mediun:w-1/2 w-full flex-col small:flex-row">
+                    <div class="text-white">
+                        <p class="tracking-widest pb-3">ブログコンテンツ</p>
+                        <ul class="list-none leading-9">
+                            <a href="#"><li class="font-light hover:text-gray-500 duration-500"><i class="fas fa-chevron-right mr-3 text-xs"></i>記事ページサンプル</li></a>
+                            <a href="#"><li class="font-light hover:text-gray-500 duration-500"><i class="fas fa-chevron-right mr-3 text-xs"></i>Extensionをダウンロード</li></a>
+                        </ul>
+                    </div>
+                    <div class="text-white small:ml-12 ml-0 small:mt-0 mt-6">
+                        <p class="tracking-widest pb-3">ソーシャルメディア</p>
+                        <ul class="list-none leading-9">
+                            <a href="#"><li class="font-light hover:text-gray-500 duration-500"><i class="fab fa-twitter mr-3 text-xs"></i>Twitter</li></a>
+                            <a href="#"><li class="font-light hover:text-gray-500 duration-500"><i class="fab fa-facebook-square mr-3 text-xs"></i>Facebook</li></a>
+                            <a href="#"><li class="font-light hover:text-gray-500 duration-500"><i class="fab fa-google-plus-g mr-3 text-xs"></i>Google+</li></a>
+                            <a href="#"><li class="font-light hover:text-gray-500 duration-500"><i class="fas fa-rss-square mr-3 text-xs"></i>Feedly</li></a>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="w-1/2 hidden medium:block">
+                    <iframe class="h-32" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBazuBu%2F&tabs=timeline&width=500&height=100&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+        <p class="text-center bg-black text-white py-8 font-thin text-xs">© Copyright 2020 XeoryExtension. All rights reserved.</p>
+
+    </footer>
+    
+    
+
+
+</body>
+</html>
